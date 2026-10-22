@@ -15,7 +15,7 @@ Do not do anything else in this session. No code in an app repo, no edits in Fig
 ## 2. Context First
 
 - I am a product designer. The developers build from my handoff docs.
-- Today a handoff takes me about 1 hour by hand (my estimate). Developers often come back with questions about states, spacing tokens and copy length.
+- Today a handoff takes me at least 8 hours by hand per screen, without iterations or changes (my estimate). Developers often come back with questions about states, spacing tokens and copy length.
 - The frame is finished and approved. Treat Figma as the source of truth.
 - Project rules are in `CLAUDE.md`. Past runs and known mistakes are in `decisions.md`. Read both first.
 

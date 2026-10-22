@@ -7,7 +7,7 @@ After each mistake: fix the skill, the template or CLAUDE.md, and write what you
 
 | Date | Task | Time | Source |
 |---|---|---|---|
-| 2026-10-22 | One developer handoff by hand | about 1 hour | Designer's estimate, not timed |
+| 2026-10-22 | One developer handoff by hand, one screen, without iterations or changes | at least 8 hours | Designer's estimate, not timed (corrected on 2026-10-22; the first entry said about 1 hour) |
 
 ## Runs
 
@@ -50,6 +50,6 @@ After each mistake: fix the skill, the template or CLAUDE.md, and write what you
 
 | Date | Decision | Why |
 |---|---|---|
-| 2026-10-22 | Task: developer handoff for one finished Figma screen | Designer track in the Capstone; it happens every week and takes about 1 hour |
+| 2026-10-22 | Task: developer handoff for one finished Figma screen | Designer track in the Capstone; it happens every week and takes at least 8 hours per screen by hand |
 | 2026-10-22 | Figma MCP read-only; write tools denied in settings.json | Capstone safety rule: read-only by default |
 | 2026-10-22 | Call get_metadata first, and get_design_context per section on big frames | Week 5 experiment: one get_design_context call on a full screen added about 31k tokens to every later turn |
