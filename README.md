@@ -7,7 +7,7 @@ Capstone project, "Automate Your Week", designer track. Author: Miguel Zabala.
 ## What the kit does
 
 ```
-Figma link ──► Figma MCP (read-only) ──► handoff-spec skill ──► check-handoff hook ──► a11y-reviewer subagent ──► decisions.md
+Figma link ──► Figma MCP (read-only) ──► handoff-spec skill ──► check-handoff hook ──► accessibility-reviewer subagent ──► decisions.md
                metadata, variables,      writes handoff.md      blocks empty          WCAG 2.2 AA pass/fail     one line per run
                screenshot, context       (template + contrast)  sections
 ```
@@ -18,7 +18,7 @@ Figma link ──► Figma MCP (read-only) ──► handoff-spec skill ──�
 | S2 Workspace | `CLAUDE.md` | 3 never-ever rules, scope, out of scope, folder map |
 | S3 Skill | `.claude/skills/handoff-spec/` | Steps, handoff template, contrast script |
 | S3 Hooks | `.claude/settings.json`, `.claude/hooks/` | `check-handoff.py` blocks a handoff with an empty section (after each write, and at the end of the turn for specs written in that session). `block-secrets.py` blocks `.env` and credential files. |
-| S4 Subagent | `.claude/agents/a11y-reviewer.md` | Read-only reviewer (Read, Grep, Glob), `memory: project` |
+| S4 Subagent | `.claude/agents/accessibility-reviewer.md` | Read-only reviewer (Read, Grep, Glob), `memory: project` |
 | S4 Memory | `decisions.md` | Baseline, run log, mistakes and fixes |
 | S5 MCP | `.mcp.json` | Figma MCP, project scope, read tools only |
 
@@ -74,7 +74,7 @@ claude -p "Run the brief in prompts/brief.md for <Figma link>" --permission-mode
 ```
 handoffs/<screen-slug>/
 ├── handoff.md            the spec for developers
-├── a11y-review.md        the reviewer's pass/fail list
+├── accessibility-review.md        the reviewer's pass/fail list
 └── figma-reference.png   the frame, for reference
 ```
 

@@ -358,7 +358,7 @@ NOT IN DESIGN: where focus goes after "Response sent" or "No response needed" is
 
 ### Review summary
 
-Summary from the a11y-reviewer subagent (full review in `a11y-review.md`): **FAIL, 23 fails, 13 pass, 11 cannot verify** (47 grouped checks, counted with `grep`).
+Summary from the accessibility-reviewer subagent (full review in `accessibility-review.md`): **FAIL, 23 fails, 13 pass, 11 cannot verify** (47 grouped checks, counted with `grep`).
 
 - Contrast: 25 text rows and 4 icon rows fail (13 grouped fails). Causes: #FF4800 and #B27E08 text, light grays (#999999, #BFBFBF, #848484, #808080, #898989, #8B8B8B, #7B7B7B, #A3A3A3), white on #A8A8A8 avatars, and the 60% opacity on older thread messages. Slack and Gmail logos fail 3:1 unless they are treated as essential brand marks.
 - Target size: buttons, rows, search bar, sort arrow, evidence bar and logo pass. Delivery header and footer cannot be verified (no size).

@@ -32,7 +32,7 @@ A developer must be able to build the screen from this file without a meeting.
    - Write **one row per text use** in the Copy table (for example "Subject header" and "date pill" get their own rows, even if they share a color). The reviewer checks each use.
    Paste each printed row into the Contrast table, with the text use in the first column.
 6. **Count, don't estimate.** Any number in the spec or the summary (NOT IN DESIGN questions, fails) comes from `grep -c`, not from memory.
-7. **Ask the `a11y-reviewer` subagent** to review the spec. Recount its pass, fail and "cannot verify" rows with `grep -c` and correct its summary if needed. Save its answer as `handoffs/<screen-slug>/a11y-review.md`, and copy its summary into the Accessibility section.
+7. **Ask the `accessibility-reviewer` subagent** to review the spec. Recount its pass, fail and "cannot verify" rows with `grep -c` and correct its summary if needed. Save its answer as `handoffs/<screen-slug>/accessibility-review.md`, and copy its summary into the Accessibility section.
 8. **Optional: HTML mockup.** Only if the user asks, build `handoffs/<screen-slug>/mockup.html` from the same values, with tokens as CSS custom properties on `:root`.
 
 ## Rules

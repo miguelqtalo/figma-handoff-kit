@@ -1,5 +1,5 @@
 ---
-name: recurring-handoff-a11y-patterns
+name: recurring-handoff-accessibility-patterns
 description: Patterns seen in handoff specs from this kit (Figma wireframes with no variables, no focus states, light gray text); check these first
 metadata:
   type: project
@@ -21,4 +21,4 @@ Third review: kestrel-case-only-response (2026-10-22). FAIL, 23 fails, 13 pass, 
 **Why:** these gaps repeated across the whole screen, so they are likely for the next screens.
 **How to apply:** check these first, then check the rest of the spec.
 
-Process note: the caller asks to save a11y-review.md, but my instructions say read-only and return text. I return the full review in the final message (via SubagentHandback) for the main session to save.
+Process note: the caller asks to save accessibility-review.md, but my instructions say read-only and return text. I return the full review in the final message (via SubagentHandback) for the main session to save.

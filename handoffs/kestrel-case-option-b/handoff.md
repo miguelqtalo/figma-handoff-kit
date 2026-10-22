@@ -333,7 +333,7 @@ Strings are exact from Figma, including the double space in "32m until  target" 
 
 ## 6. Accessibility
 
-Summary from the `a11y-reviewer` subagent (full review in `a11y-review.md`): **FAIL**. 50 checks: 12 pass, 26 fail, 12 cannot verify.
+Summary from the `accessibility-reviewer` subagent (full review in `accessibility-review.md`): **FAIL**. 50 checks: 12 pass, 26 fail, 12 cannot verify.
 
 - Contrast: 16 fails. Response orange #FF4800 (3.40:1) and Delivery gold #B27E08 (3.57:1) fail for all 14 to 16 px text. Section labels #999999 (2.85:1), search placeholder (1.84:1), person names #7B7B7B, footer times, detail header client, and all thread text fail. Older messages at 60% opacity drop to 1.40 to 4.29:1.
 - Note: the "AA large" column only applies to text of 24 px, or 18.66 px bold. For 14 to 16 px text use the "AA normal" column.

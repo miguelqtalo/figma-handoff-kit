@@ -20,7 +20,7 @@ A developer must be able to build the screen from the spec without a follow-up m
 
 - Read one Figma frame (read-only).
 - Write `handoffs/<screen-slug>/handoff.md` with the `handoff-spec` skill.
-- Run the `a11y-reviewer` subagent on the spec and save `a11y-review.md`.
+- Run the `accessibility-reviewer` subagent on the spec and save `accessibility-review.md`.
 - Log the run in `decisions.md`.
 
 ## Out of scope
@@ -33,7 +33,7 @@ A developer must be able to build the screen from the spec without a follow-up m
 
 1. Read `prompts/brief.md` and follow it.
 2. Use the `handoff-spec` skill.
-3. Delegate the accessibility check to the `a11y-reviewer` subagent.
+3. Delegate the accessibility check to the `accessibility-reviewer` subagent.
 4. Add one line to `decisions.md`: date, screen, time, result, what was wrong.
 5. If the reviewer or the designer found a mistake, fix the skill or this file so it does not happen again.
 
@@ -52,7 +52,7 @@ figma-handoff-kit/
 │   │   ├── check-handoff.py   blocks a handoff with an empty required section
 │   │   └── block-secrets.py   blocks reading .env and credential files
 │   ├── skills/handoff-spec/   the handoff skill, template and contrast script
-│   └── agents/a11y-reviewer.md read-only WCAG 2.2 AA reviewer
+│   └── agents/accessibility-reviewer.md read-only WCAG 2.2 AA reviewer
 ├── scripts/session-usage.py   token usage of a session, from its transcript
 ├── handoffs/<screen-slug>/    one folder per screen (output)
 └── evidence/                  extra run evidence (raw outputs)

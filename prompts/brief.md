@@ -24,7 +24,7 @@ Do not do anything else in this session. No code in an app repo, no edits in Fig
 - Use the **Figma MCP** only to read: `get_metadata` first, then `get_variable_defs`, `get_screenshot` and `get_design_context`. For a big frame, call `get_design_context` per main section.
 - Load the **`handoff-spec` skill with the Skill tool** (not by reading SKILL.md), so the run log shows it was used. Use its template exactly.
 - Use the skill's `scripts/contrast.py` for every text and background color pair. Do not calculate contrast in your head.
-- Delegate the accessibility check to the **`a11y-reviewer` subagent**. Do not review accessibility yourself.
+- Delegate the accessibility check to the **`accessibility-reviewer` subagent**. Do not review accessibility yourself.
 - Do not use web search. Do not read files outside this kit folder, except a file the Figma MCP saves for its own large output, and the Figma asset URLs.
 
 ## 4. Definition of Done
@@ -35,9 +35,9 @@ The run is done when all of these are true:
 - [ ] Every state in the template has a value or a `NOT IN DESIGN:` question.
 - [ ] Every color, spacing and type value has a token name, or is marked "needs a token".
 - [ ] Every string is listed with a max length.
-- [ ] `handoffs/<screen-slug>/a11y-review.md` exists, with a pass or fail for each check.
+- [ ] `handoffs/<screen-slug>/accessibility-review.md` exists, with a pass or fail for each check.
 - [ ] One new line in `decisions.md`.
-- [ ] A short summary in chat: the file paths, the number of `NOT IN DESIGN` questions, and the a11y fails.
+- [ ] A short summary in chat: the file paths, the number of `NOT IN DESIGN` questions, and the accessibility fails.
 
 ## 5. Junior Persona
 

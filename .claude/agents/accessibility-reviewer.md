@@ -1,6 +1,6 @@
 ---
-name: a11y-reviewer
-description: Read-only accessibility reviewer for a handoff spec. Use after the handoff-spec skill writes handoffs/<screen>/handoff.md, or when the user asks to "check accessibility", "a11y review" or "WCAG check" on a handoff. Checks contrast, target size, focus order and labels against WCAG 2.2 AA and returns a pass or fail list. Never edits files.
+name: accessibility-reviewer
+description: Read-only accessibility reviewer for a handoff spec. Use after the handoff-spec skill writes handoffs/<screen>/handoff.md, or when the user asks to "check accessibility", "accessibility review" or "WCAG check" on a handoff. Checks contrast, target size, focus order and labels against WCAG 2.2 AA and returns a pass or fail list. Never edits files.
 tools: Read, Grep, Glob
 model: sonnet
 memory: project

@@ -1,0 +1,1 @@
+- [Recurring handoff accessibility patterns](feedback_recurring_patterns.md) — focus states missing, light gray text, no alt text for logos and icons; read-only rule

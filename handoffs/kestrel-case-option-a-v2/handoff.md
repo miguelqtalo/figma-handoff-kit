@@ -338,7 +338,7 @@ What the frame shows:
 
 ## 6. Accessibility
 
-Summary from the a11y-reviewer subagent (full review in `a11y-review.md`): **FAIL, 28 fails, 3 cannot verify, 9 pass** (40 grouped rows).
+Summary from the accessibility-reviewer subagent (full review in `accessibility-review.md`): **FAIL, 28 fails, 3 cannot verify, 9 pass** (40 grouped rows).
 
 - Contrast: 25 text uses and 2 icons fail (12 grouped rows). Groups: #FF4800 text, #B27E08 text, light grays (#999999, #BFBFBF, #848484, #808080, #898989, #8B8B8B, #7B7B7B, #A3A3A3), and the 60% opacity on older thread messages.
 - Target size: buttons, rows, evidence bar and sort arrow pass (24 x 24 or more). Hidden controls cannot be verified.

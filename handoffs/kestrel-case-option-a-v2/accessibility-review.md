@@ -1,7 +1,7 @@
 # Accessibility review: Kestrel Case (Response+Delivery) - Option A
 Result: FAIL (28 fails)
 
-Reviewer: `a11y-reviewer` subagent, 2026-10-22, on `handoff.md` in this folder. Saved by the main session (the reviewer is read-only).
+Reviewer: `accessibility-reviewer` subagent, 2026-10-22, on `handoff.md` in this folder. Saved by the main session (the reviewer is read-only).
 
 Rows are grouped by element. A group row counts as one result.
 

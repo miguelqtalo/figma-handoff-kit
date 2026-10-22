@@ -1,7 +1,7 @@
 # Accessibility review: Kestrel Case (Response+Delivery) - Option A
 Result: FAIL (27 fails, 4 cannot verify, 14 pass)
 
-Reviewer: `a11y-reviewer` subagent, 2026-10-22. Saved by the main session (the subagent is read-only).
+Reviewer: `accessibility-reviewer` subagent, 2026-10-22. Saved by the main session (the subagent is read-only).
 
 Source: handoff.md (frame 6750:1705) and figma-reference.png. Ratios come from the spec's Contrast table (scripts/contrast.py). I did not recompute them. All text is 20 px or smaller and none is 24 px, so the AA normal column (4.5:1) is the one that counts. No text is 18.66 px or larger and bold, except possibly the 20 px Bold statements, which only matter if they pass anyway.
 

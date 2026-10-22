@@ -264,7 +264,7 @@ NOT IN DESIGN: only one frame size exists (1920 x 1511). How should the three pa
 
 ## 6. Accessibility
 
-Summary from the `a11y-reviewer` subagent (full review: `a11y-review.md` in this folder). Result: FAIL.
+Summary from the `accessibility-reviewer` subagent (full review: `accessibility-review.md` in this folder). Result: FAIL.
 
 - 45 checks: 14 pass, 27 fail, 4 cannot verify.
 - Contrast: 16 of 20 rows fail AA normal (4.5:1). Main groups: the status colors #FF4800 (3.40) and #B27E08 (3.57), the light grays (#999999 labels 2.85, #BFBFBF placeholder 1.84) and all thread text at 60% opacity (1.40 to 4.29). The "Subject" header and date pill text colors are not in the spec, so they could not be checked.

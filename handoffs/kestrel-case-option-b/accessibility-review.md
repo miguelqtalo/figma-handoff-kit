@@ -3,7 +3,7 @@
 Frame 6750:1196, handoff at handoffs/kestrel-case-option-b/handoff.md
 Result: FAIL (26 fails)
 
-Reviewer: `a11y-reviewer` subagent (read-only), 2026-10-22. Saved by the main session, text unchanged.
+Reviewer: `accessibility-reviewer` subagent (read-only), 2026-10-22. Saved by the main session, text unchanged.
 
 Method: I used only values in the spec and the reference image. Contrast ratios come from the Contrast table (contrast.py); I did not recalculate them. Each table row is one result. Rows that cover several nodes count once.
 
@@ -78,7 +78,7 @@ Important note on the Contrast table: the "AA large" column says "pass" for many
 |---|---|---|---|---|---|
 | 44 | Color alone | Selected row (6750:1255) | FAIL | "left border 5 px #FF4800, fill #FFFFFF"; the unselected row has no fill and the page is white. So selected is shown by orange color only. | Add a second cue (fill, bold, icon) and `aria-current`. |
 | 45 | Color alone | Response vs Delivery | PASS | Text labels "Response" / "Delivery" plus icons | None. |
-| 46 | Color alone | "overdue" vs "until target" | PASS | Text says "47m overdue" and "17m until target", not only red. The shared red is a design question (Open question 8). | None for a11y. |
+| 46 | Color alone | "overdue" vs "until target" | PASS | Text says "47m overdue" and "17m until target", not only red. The shared red is a design question (Open question 8). | None for accessibility. |
 | 47 | Color alone | Timeline dots (6750:1455 to 6750:1464, 6750:1615 to 6750:1620) | PASS | Each dot has a text label beside it | None. |
 | 48 | Color alone | Latest message vs older (6750:1570, 6750:1668) | PASS | Colored tag has text ("Response", "Promise made") and an icon | None. |
 | 49 | Color alone | Error or status states | CANNOT VERIFY | No error state is drawn | Design error states with text and an icon. |
